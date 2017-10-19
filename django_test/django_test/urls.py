@@ -20,5 +20,7 @@ from app_test import views as app_test_views
 
 urlpatterns = [
     url(r'^$', app_test_views.index),
+    url(r'^add/$', app_test_views.add, name='add'),
     url(r'^admin/', admin.site.urls),
 ]
+
